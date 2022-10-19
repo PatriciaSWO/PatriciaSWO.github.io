@@ -1,0 +1,133 @@
+body {
+    font-family: 'Amiri', serif;  
+    background-color: #3d405b;
+    text-align: center;
+    margin: 0;
+  }
+     
+  h1,
+  h3,
+  h4 {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  
+    /* Header Section */
+  
+    header {
+      height: 69px;
+      width: 100%;
+      border-bottom: 1px solid #f4f1de;
+      align-items: center;
+      z-index: 1;
+      position: fixed;  
+      background-color: #81b29a;
+    }
+  
+    header img {
+      height: 50px;
+      padding-left: 10px;
+    }
+  
+    .navigation {
+      flex-grow: 1;
+      text-align: right;
+    }
+  
+   .navigation ul {
+      margin: 0;
+      padding: 0;
+    }
+  
+    .navigation li {
+      display: inline-block;
+      padding: 20px 10px;
+      font-size: 22px;
+    }
+  
+    .navigation a {
+     transition: color 250ms linear; 
+     color: #3d405b;
+    }
+  
+    .navigation a:hover {
+      color:#f4f1de;
+    }
+  
+    /* Main Section */
+  
+    .main {
+      margin: auto;
+      padding-top: 69px;
+      opacity: 0.9;
+      width: 1300px;
+    }
+
+.main h2 {
+    font-family: 'Indie Flower', cursive;
+    font-size: 30px;
+    /*background-color: #81b29a;*/
+    height: 40px;
+    padding: 10px;
+    margin-top: 5px;
+    color: #3d405b;
+    background: rgb(129,178,154);
+    background: radial-gradient(circle, rgba(129,178,154,1) 0%, rgba(61,64,91,1) 100%); 
+}
+
+/* Merch Section */
+
+#merch {
+    height: 600px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 10px;
+}
+
+#merch p {
+    font-size: 22px;
+    color: #81b29a;
+}
+
+.shop {
+    padding: 10px;
+}
+
+.shop img {
+    height: 300px;
+    margin: 10px;
+    display: block;
+}
+
+.shop a {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: #e07a5f;
+}
+
+.streamlabs-shop a {
+    color: #e07a5f;
+}
+
+
+/* Footer Section */
+
+footer {
+    text-align: right;
+    font-size: x-small;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+    color: #81b29a;
+    position: sticky;
+  }
+  
+  

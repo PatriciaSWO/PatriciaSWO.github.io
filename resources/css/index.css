@@ -1,0 +1,219 @@
+body {
+  font-family: 'Amiri', serif;  
+  background-color: #3d405b;
+  text-align: center;
+  margin: 0;
+}
+   
+h1,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+
+  /* Header Section */
+
+  header {
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid #f4f1de;
+    align-items: center;
+    z-index: 1;
+    position: fixed;  
+    background-color: #81b29a;
+  }
+
+  header img {
+    height: 50px;
+    padding-left: 10px;
+  }
+
+  .navigation {
+    flex-grow: 1;
+    text-align: right;
+  }
+
+ .navigation ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  .navigation li {
+    display: inline-block;
+    padding: 20px 10px;
+    font-size: 22px;
+  }
+
+  .navigation a {
+   transition: color 250ms linear; 
+   color: #3d405b;
+  }
+
+  .navigation a:hover {
+    color:#f4f1de;
+  }
+
+  /* Main Section */
+
+  .main {
+    margin: auto;
+    padding-top: 69px;
+    opacity: 0.9;
+    width: 1300px;
+  }
+
+ /* Home Section */
+
+  #home {
+    height: 650px;
+    padding-top: 70px;
+    background-image: url("../image/IMG-20211028-WA0029.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: 50px;
+    border-radius: 15px;
+  }
+
+  #home .startpic {
+    margin: auto;
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+    bottom: 0;
+    left: 340px;
+    right: 180px;
+    width: 800px;
+    height: 180px;
+    color: #3d405b;
+  }
+
+  #home .startpic h1 {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
+    width: auto;
+    height: 15px;
+    line-height: 2.5px;
+    color: #3d405b;
+    font-size: 60px;
+    text-shadow: 3px 3px 0 #f4f1de;
+    text-align: right;
+  }
+
+  #home .startpic h4 {
+    text-align: right;
+    line-height: 2.5px;
+    color: #3d405b;
+    font-size: 22px;
+  }
+
+  
+  /* Goal Section */
+
+  .flex-container.lists {
+    padding-top: 5px;
+  }
+ 
+  #goals {
+    background-image: url("../image/grün.png");
+    height: 500px;
+    padding-top: 60px;
+    color: #81b29a;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 20px;
+  }
+
+  #goals .flex-container {
+    margin: auto;
+    width: 1100px;
+  }
+
+  #goals p {
+    margin: 30px;
+    font-size: 18px;
+  }
+
+  #goals .list p {
+    margin: auto 30px;
+    width: 220px;
+    height: 130px;
+  }
+
+  #goals h3 {
+    padding: 20px auto;
+  }
+
+  .list {
+    opacity: 1.0;
+    padding: 10px;
+    margin: 20px 20px;
+    background-color: #f4f1de;
+    flex-basis: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 40px;
+  }
+ 
+  .twitch {
+    text-decoration: none;
+    background-color: #81b29a;
+    border-radius: 50%;
+    transition: background-color 650ms linear, color 650ms linear;
+    color: #3d405b;
+    font-weight: bold;
+    padding: 10px 15px;
+  }
+
+  .twitch:hover {
+    background-color: rgb(224, 122, 95, 0.65);
+    color: #f2cc8f;
+  }
+
+  
+/* Social Media Section */
+
+.socialmedia {
+  position: relative;
+  background: rgb(242,204,143);
+  background: radial-gradient(circle, rgba(242,204,143,1) 0%, rgba(61,64,91,1) 100%);
+  color: #3d405b;
+  margin-bottom: 0px;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+.socialmedia img{
+  width: 100px;
+  height: 100px;
+   display: inline-block;
+}
+
+.socialmedia p {
+  padding-top: 20px;
+}
+
+
+/* Footer Section */
+
+footer {
+  text-align: right;
+  font-size: x-small;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
+  color: #81b29a;
+  position: sticky;
+}
+
+
+
+/* Color: Eierschale: f4f1de, Orange: e07a5f, dunkel Blau: 3d405b, Grün: 81b29a, Creme: f2cc8f */
+
