@@ -85,7 +85,7 @@ body {
 /* Merch Section */
 
 #merch {
-    height: 600px;
+    height: auto;
     width: 1000px;
     margin: auto;
     padding-top: 10px;
