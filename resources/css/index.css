@@ -115,7 +115,7 @@ h4 {
   }
 
   
-  /* Goal Section */
+  /* Values Section */
 
   .flex-container.lists {
     padding-top: 5px;
@@ -125,7 +125,7 @@ h4 {
     background-image: url("../image/grün.png");
     height: 500px;
     padding-top: 60px;
-    color: #81b29a;
+    color: #e07a5f;
     background-size: cover;
     background-position: center;
     padding-bottom: 20px;
@@ -136,11 +136,18 @@ h4 {
     width: 1100px;
   }
 
+
+
   #goals p {
     margin: 30px;
     font-size: 18px;
+    color: #3d405b;
   }
 
+  #goals .linktwitch {
+    color: #81b29a;
+    font-weight: bold;
+  }
   #goals .list p {
     margin: auto 30px;
     width: 220px;
@@ -163,7 +170,8 @@ h4 {
     border-radius: 40px;
     transition: all .2s ease-in-out;
   }
- 
+
+  
   .twitch {
     text-decoration: none;
     background-color: #81b29a;
@@ -173,6 +181,7 @@ h4 {
     font-weight: bold;
     padding: 10px 15px;
   }
+
 
   .list:hover {
     transform: scale(1.2);
