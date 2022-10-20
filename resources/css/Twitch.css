@@ -80,6 +80,34 @@ h4 {
         background-size: cover;
     }
 
+/* Clip oder anderer Section */
+
+ #info {
+    height: 700px;
+    width: 1000px;
+    margin: auto;
+    padding-top: 70px;
+  }
+  
+  .item {
+    padding: 5px;
+  }
+  
+  .item img {
+    height: 200px;
+    margin: 10px;
+    display: block;
+  }
+  
+  .item span {
+    display: block;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+/* Lexikon Section */
+
 #lexikon {
   font-size: 22px;
   color: #e07a5f;
