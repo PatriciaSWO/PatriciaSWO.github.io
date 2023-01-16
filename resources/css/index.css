@@ -31,9 +31,18 @@ h4 {
     background-color: #81b29a;
   }
 
-  header img {
-    height: 50px;
+    /*header img {
     padding-left: 10px;
+  }*/
+
+  .snip {
+    width: 150px; 
+    height: 100%; 
+    object-fit: cover;
+    object-position: center; 
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
   }
 
   .navigation {
