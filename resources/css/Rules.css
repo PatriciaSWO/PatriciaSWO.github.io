@@ -17,10 +17,100 @@ body {
     justify-content: center;
     flex-wrap: wrap;
   }
+  
+  
+    /* Header Section */
+  
+    header {
+      height: 69px;
+      width: 100%;
+      border-bottom: 1px solid #f4f1de;
+      align-items: center;
+      z-index: 1;
+      position: fixed;  
+      background-color: #81b29a;
+    }
+  
+    /*header img {
+      padding-left: 10px;
+    }*/
+  
+    .snip {
+      width: 150px; 
+      height: 100%; 
+      object-fit: cover;
+      object-position: center; 
+      box-sizing: border-box;
+      position: absolute;
+      left: 0px;
+    }
+  
+    .navigation {
+      flex-grow: 1;
+      text-align: right;
+    }
+  
+   .navigation ul {
+      margin: 0;
+      padding: 0;
+    }
+  
+    .navigation li {
+      display: inline-block;
+      padding: 20px 10px;
+      font-size: 22px;
+    }
+  
+    .navigation a {
+     transition: color 250ms linear; 
+     color: #3d405b;
+    }
+  
+    .navigation a:hover {
+      color:#f4f1de;
+    }
+  
+    /* Main Section */
+  
+    .main {
+      margin: auto;
+      padding-top: 69px;
+      opacity: 0.9;
+      width: 1300px;
+    }
+  
+  /* Rules Section*/
+
+  #ruleshead {
+    padding: 20px;
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    text-shadow: 2px 2px 5px #e07a5f;
+    color: #81b29a;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  h3 {
+    font-size: 35px;
+  }
 
   .rules {
-    margin: 200;
-    text-align: left !important;
-    display: block;
-    color: antiquewhite;
+    text-align: left;
+    margin-left: 200px !important;
+    margin-right: 200px;
+    padding: 50px;
+    color: #f2cc8f;
+    font-size: 22px;
+  }
+
+  .verstoß {
+    color: red;
+    text-shadow: 2px 3px 20px #81b29a;
+  }
+
+  .rules a {
+    color: #f4f1de;
   }
