@@ -20,6 +20,6 @@ body {
 
   .rules {
     margin: 200;
-    text-align: left;
+    text-align: left !important;
     display: block;
   }
