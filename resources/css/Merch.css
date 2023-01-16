@@ -31,10 +31,20 @@ body {
       background-color: #81b29a;
     }
   
-    header img {
-      height: 50px;
-      padding-left: 10px;
-    }
+      /*header img {
+    padding-left: 10px;
+  }*/
+
+  .snip {
+    width: 150px; 
+    height: 100%; 
+    object-fit: cover;
+    object-position: center; 
+    box-sizing: border-box;
+    position: absolute;
+    left: 0px;
+  }
+
   
     .navigation {
       flex-grow: 1;
@@ -104,7 +114,7 @@ body {
     height: 300px;
     margin: 10px;
     display: block;
-    border-radius: 20px;
+    border-radius: 15px;
 }
 
 .shop a {
@@ -128,7 +138,6 @@ footer {
     font-family: 'Courier New', Courier, monospace;
     font-style: italic;
     color: #81b29a;
-    position: sticky;
   }
   
-  
+   
