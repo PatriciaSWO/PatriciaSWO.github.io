@@ -1,0 +1,23 @@
+body {
+    font-family: 'Amiri', serif;  
+    background-color: #3d405b;
+    text-align: center;
+    margin: 0;
+  }
+     
+  h1,
+  h3,
+  h4 {
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .rules {
+    margin: 50;
+  }
